@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd8ba03bb9741840aa4429321139dfe, type: 3}
+  m_Name: BussinesConfigTemplate
+  m_EditorClassIdentifier: 
+  BussinessForScene:
+  - {fileID: 11400000, guid: 7c7cbe0d71471f3489cbe2e953ab1d21, type: 2}
+  - {fileID: 11400000, guid: d3ed1bcd939459840a152e7aad1666ac, type: 2}
+  - {fileID: 11400000, guid: a0d4bb0b367f9484183bd54b12550571, type: 2}
+  - {fileID: 11400000, guid: 723da022d75968046ada81537c47ca7e, type: 2}
+  - {fileID: 11400000, guid: f9266a73aec59474d9746e0e33e8fee6, type: 2}
