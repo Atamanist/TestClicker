@@ -16,10 +16,13 @@ MonoBehaviour:
   ProfitTimer: 6
   BaseCost: 40
   BaseProfit: 40
+  BaseLvl: 0
   BusssinesUpdates:
   - Name: Name1
     Cost: 1200
+    IsBuyed: 0
     ProfitMultiplier: 100
   - Name: Name2
     Cost: 4000
+    IsBuyed: 0
     ProfitMultiplier: 200

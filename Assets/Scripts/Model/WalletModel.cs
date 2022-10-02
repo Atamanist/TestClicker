@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class WalletModel
 {
-    public int Money { set; get; }
+    public float Money { set; get; }
 }

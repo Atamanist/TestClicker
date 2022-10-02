@@ -11,11 +11,11 @@ public class WalletView : MonoBehaviour
 
     public void Init(int value)
     {
-        _money.text = $"Баланс: {value}$";
+        _money.text = $"Р‘Р°Р»Р°РЅСЃ: {value}$";
     }
 
-    public void UpdateValue(int value)
+    public void UpdateValue(float value)
     {
-        _money.text = $"Баланс: {value}$";
+        _money.text = $"Р‘Р°Р»Р°РЅСЃ: {value}$";
     }
 }

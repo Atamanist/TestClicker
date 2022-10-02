@@ -8,6 +8,7 @@ public class BusinessSO : ScriptableObject
     public int ProfitTimer;
     public int BaseCost;
     public int BaseProfit;
+    public int BaseLvl;
     public BusinessUpdate[] BusssinesUpdates;
 }
 
@@ -16,5 +17,6 @@ public class BusinessUpdate
 {
     public string Name;
     public int Cost;
+    public bool IsBuyed;
     public int ProfitMultiplier;
 }

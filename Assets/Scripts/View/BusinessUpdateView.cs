@@ -11,18 +11,18 @@ public class BusinessUpdateView : MonoBehaviour
     [SerializeField] TextMeshProUGUI _profitMultiplier;
     [SerializeField] TextMeshProUGUI _cost;
     [SerializeField] Button _update;
-    public Action BuyUpdate;
+    public Action<int> BuyUpdate;
 
-    public void Init(BusinessUpdateModel businessUpdateModel)
+    public void Init(BusinessUpdateModel businessUpdateModel,int ID)
     {
         _name.text = $"{businessUpdateModel.Name}";
-        _profitMultiplier.text = $"Äîõîä: +{businessUpdateModel.ProfitMultiplier}%";
-        _cost.text = $"Öåíà: {businessUpdateModel.Cost}$";
+        _profitMultiplier.text = $"Ð”Ð¾Ñ…Ð¾Ð´: +{businessUpdateModel.ProfitMultiplier}%";
+        _cost.text = $"Ð¦ÐµÐ½Ð°: {businessUpdateModel.Cost}$";
         _update.onClick.AddListener(() => {
-            BuyUpdate?.Invoke();
+            BuyUpdate?.Invoke(ID);
             _update.interactable = false;
         });
-        ButtonInteracteble(false);
+        ButtonInteracteble(!businessUpdateModel.IsBuyed);
     }
 
     public void ButtonInteracteble(bool isInteractable)

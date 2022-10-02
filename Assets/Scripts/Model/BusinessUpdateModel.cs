@@ -14,11 +14,11 @@ public class BusinessUpdateModel
         Name = businessUpdate.Name;
         Cost = businessUpdate.Cost;
         ProfitMultiplier = businessUpdate.ProfitMultiplier;
+        IsBuyed = businessUpdate.IsBuyed;
     }
 
     public void BuyUpdate()
     {
         IsBuyed = true;
     }
-
 }

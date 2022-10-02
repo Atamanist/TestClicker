@@ -748,6 +748,7 @@ MonoBehaviour:
   _profit: {fileID: 499338066599232071}
   _level: {fileID: 499338065918631210}
   _updateLvl: {fileID: 499338066773401290}
+  _updateLvlText: {fileID: 499338064679592049}
   _profitSlider: {fileID: 499338066595553358}
   _rectUpdateContent: {fileID: 499338066222778045}
   _bussinesUpdatePrefab: {fileID: 668135825903852067, guid: cd6b666dfd4604e4e8f3aa73f6e11a6a, type: 3}
